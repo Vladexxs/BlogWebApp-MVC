@@ -1,0 +1,12 @@
+﻿@model Category
+
+
+@using(Html.BeginForm(actionName:"Save", controllerName:"Category", FormMethod.Post))
+{
+    <input type="hidden" name="CategoryId" value="@Model.CategoryId" />
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" type="text" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Güncelle</button>
+}

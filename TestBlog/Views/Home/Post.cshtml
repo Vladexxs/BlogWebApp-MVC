@@ -1,0 +1,79 @@
+﻿@model Post
+@{
+	ViewBag.Title = Model.Name;
+}
+
+
+<div class="container">
+	<h1 class="mb-4 text-center">@Model.Name</h1>
+	@if (String.IsNullOrEmpty(Model.ImageName) == false)
+	{
+		<div class="row mt-4">
+			<div class="col-12 mx-auto mb-4">
+				<img src="~/images/@Model.ImageName" class="img-fluid" alt="@Model.Name" />
+			</div>
+		</div>
+	}
+
+	<div>
+		@Html.Raw(Model.Detail.Replace("\r", "<br />"))
+	</div>
+
+	<div class="bg-white mt-3">
+		<div class="card border-0">
+			<div class="card-header pb-0">
+				<h4><span id="commentCount">@Model.Comments.Count()</span> adet yorum var.</h4>
+			</div>
+			<div class="card-body">
+			@foreach (var comment in Model.Comments)
+			{
+				<div class="my-4 d-flex">
+						<img src="/images/p1.jpg" class="avatar rounded-circle float-start me-3" alt="avatar" />
+					<div>
+						<div class="mb-2">
+							<h6>@comment.UserName</h6>
+						
+						</div>
+						<p>@comment.Text</p>
+
+							
+						@Constants.GetDateRemainingTime(comment.Date)
+						
+					</div>
+				</div>
+			}
+		</div>
+
+
+
+				<hr class="my-4">
+				<div>
+					<h4 class="mb-3">Yorum Ekle</h4>
+
+					<form action="/Home/GetCommentByPostId" method="post">
+						<input type="hidden" id="PostId" name="PostId" value="@Model.PostId">
+						<div class="mb-3">
+
+							<label for="UserName" class="form-label">Kullanıcı Adı</label>
+							<input type="text" name="UserName" id="UserName" class="form-control"></input>
+						</div>
+						<div class="mb-3">
+
+							<label for="Text" class="form-label">Yorum</label>
+							<textarea type="text" name="Text" id="Text" rows="3" class="form-control"></textarea>
+						</div>
+						<div class="mb-3">
+							<button id="btnYorumKayit" type="submit" class="btn btn-primary">Kaydet</button>
+						</div>
+					</form>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+

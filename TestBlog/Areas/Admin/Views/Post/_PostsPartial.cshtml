@@ -1,0 +1,100 @@
+﻿@model IPagedList<TestBlog.Models.Post>
+@{
+	var category = (Category)ViewBag.category;
+	ViewBag.Title = category.Name;
+}
+
+	<table class="table table-hover table-bordered table-responsive">
+		<thead class="thead-dark">
+			<tr>
+				<th scope="col" width="80">Id</th>
+				<th scope="col">Gönderi Adı</th>
+				<th scope="col">Gönderi Resmi</th>
+				<th scope="col">Gönderi Tarihi</th>
+				<th scope="col">Kısa Açıklama</th>
+				<th scope="col" width="172" class="text-center">İşlemler</th>
+			</tr>
+		</thead>
+		<tbody>
+			@if (Model.Count == 0)
+			{
+				<tr>
+					<td colspan="6" class="text-center">
+						<p>Kayıt Bulunamadı!</p>
+					</td>
+				</tr>
+			}
+			@foreach (var post in Model)
+			{
+				<tr>
+					<td>@post.PostId</td>
+					<td>@post.Name</td>
+					<td>
+						<a href="~/images/@post.ImageName" target="_blank">
+							<img src="~/images/@post.ImageName" width="150" class="img-thumbnail" />
+						</a>
+
+					</td>
+					<td>@post.Date.ToString("dd.MM.yyy")</td>
+					<td>
+						@if (String.IsNullOrEmpty(post.ShortDetail) == false)
+						{
+							<button class="postShortDetailPopover" data-bs-toggle="popover" data-bs-title="Kısa Açıklama" data-bs-content="@post.ShortDetail">
+								Açıklamayı Göster
+							</button>
+						}
+					</td>
+					<td>
+						<div class="d-flex mr-2">
+							<a class="btn btn-warning btn-sm text-light me-1 btnPostEditLink" asp-action="Edit" asp-controller="Post" asp-area="Admin" asp-route-postId="@post.PostId">Düzenle</a>
+							<form asp-action="Delete" asp-controller="Post" data-ajax-method="POST" data-ajax="true" data-ajax-begin="onPostDeleteBegin" data-ajax-complete="onPostDeleteComplete" data-ajax-failure="onPostDeleteFailure" data-ajax-success="onPostDeleteSuccess">
+								<input type="hidden" name="PostId" value="@post.PostId" />
+								<button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Silmek İstediğinize Eminmisiniz?');">
+									Sil?
+								</button>
+							</form>
+
+						</div>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+	@if (Model.PageCount > 1)
+	{
+		<nav aria-label="Page navigation example">
+			<ul class="pagination justify-content-center mt-5 ">
+				@if (Model.HasPreviousPage == false)
+				{
+					<li class="page-item disabled">
+						<a class="page-link bg-dark bg-gradient text-light">Önceki</a>
+					</li>
+				}
+				else
+				{
+					<li class="page-item">
+						<a class="page-link bg-dark bg-gradient text-light postpagelink" href="#" data-page="@(Model.PageNumber-1)">Önceki</a>
+					</li>
+				}
+				@for (int i = 1; i < Model.PageCount + 1; i++)
+				{
+				<li class="page-item"><a class="page-link bg-dark bg-gradient text-light postpagelink" href="#" data-page="@i">@i</a></li>
+				}
+				@if (Model.HasNextPage == false)
+				{
+					<li class="page-item disabled">
+						<a class="page-link bg-dark bg-gradient text-light">Sonraki</a>
+					</li>
+				}
+				else
+				{
+					<li class="page-item">
+					<a class="page-link bg-dark bg-gradient text-light postpagelink" href="#" data-page="@(Model.PageNumber + 1)">Sonraki</a>
+					</li>
+				}
+
+			</ul>
+		</nav>
+
+	}
+

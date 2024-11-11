@@ -1,0 +1,15 @@
+﻿@model List<Category>
+
+		<!--Burası kategoriler için yani mobil cihazların göreceği kategoriler kısmı-->
+		<li class="nav-item d-sm-none">
+			<h6 class="text-success rounded p-2 mb-0">Kategoriler</h6>
+		</li>
+		
+		
+		@foreach (var category in Model)
+		{
+		<li class="nav-item d-sm-none">
+		<a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Posts" asp-route-categoryId="@category.CategoryId">@category.Name</a>
+		</li>
+		}
+	

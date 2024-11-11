@@ -1,0 +1,46 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    
+}
+
+.btn-mert {
+    color: red!important;
+    background-color: blue!important;
+    border-color: silver!important;
+}
+/*burasý card titlenin üzerine gelince text green oluyor*/
+.card-title a:hover {
+    
+   color:green!important;
+}
+/*burasý navbardaki linkin üzerine gelince arka planý*/
+.navbar-nav .nav-link:hover {
+    
+    /*background-color: #00e288;*/
+    background-color:#181818;
+    border-radius:4px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,48 @@
+﻿@model Post
+
+@{
+    var categories = (List<Category>)ViewBag.categories;
+    var selectListItems = categories.Select(X => new SelectListItem() { Value = X.CategoryId.ToString(), Text = X.Name }).ToList();
+
+}
+
+<form asp-action="Save" asp-controller="Post" enctype="multipart/form-data" data-ajax-method="POST" data-ajax="true" data-ajax-begin="onPostBegin" data-ajax-complete="onPostComplete" data-ajax-failure="onPostFailure" data-ajax-success="onPostSuccess">
+   @if(Model.PostId > 0)
+    {
+        <input type="hidden" name="PostId" value="@Model.PostId" />
+    }
+    <div class="mb-3">
+        <label asp-for="CategoryId" class="form-label"></label>
+        <select class="form-control" asp-for="CategoryId" asp-items="selectListItems">
+        </select>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control">
+    </div>
+    @if(string.IsNullOrEmpty(Model.ImageName) == false)
+    {
+        <div class="mb-3">
+            <label class="control-label">Mevcut Resim</label>
+            <a href="@Url.Content("~/images/"+ Model.ImageName)" target="_blank">
+                <img src="@Url.Content("~/images/"+ Model.ImageName)" width="50" />
+            </a>
+        </div>
+    }
+
+    <div class="mb-3">
+        <label asp-for="ImageName" class="control-label"></label>
+        <input type="file" name="PostImageFile" id="ImageName" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="ShortDetail" class="control-label"></label>
+        <input asp-for="ShortDetail" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Detail" class="control-label"></label>
+        <textarea asp-for="Detail" class="form-control">
+           
+        </textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>

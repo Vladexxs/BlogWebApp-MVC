@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5389D0-46B8-4064-A8BE-D3385A01A783}|TestBlog\\TestBlog.csproj|c:\\users\\merty\\documents\\visual studio 2022\\projects\\testblog\\testblog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5389D0-46B8-4064-A8BE-D3385A01A783}|TestBlog\\TestBlog.csproj|solutionrelative:testblog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5389D0-46B8-4064-A8BE-D3385A01A783}|TestBlog\\TestBlog.csproj|c:\\users\\merty\\documents\\visual studio 2022\\projects\\testblog\\testblog\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5389D0-46B8-4064-A8BE-D3385A01A783}|TestBlog\\TestBlog.csproj|solutionrelative:testblog\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5389D0-46B8-4064-A8BE-D3385A01A783}|TestBlog\\TestBlog.csproj|c:\\users\\merty\\documents\\visual studio 2022\\projects\\testblog\\testblog\\areas\\admin\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5389D0-46B8-4064-A8BE-D3385A01A783}|TestBlog\\TestBlog.csproj|solutionrelative:testblog\\areas\\admin\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5389D0-46B8-4064-A8BE-D3385A01A783}|TestBlog\\TestBlog.csproj|c:\\users\\merty\\documents\\visual studio 2022\\projects\\testblog\\testblog\\areas\\admin\\views\\comment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5389D0-46B8-4064-A8BE-D3385A01A783}|TestBlog\\TestBlog.csproj|solutionrelative:testblog\\areas\\admin\\views\\comment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5389D0-46B8-4064-A8BE-D3385A01A783}|TestBlog\\TestBlog.csproj|c:\\users\\merty\\documents\\visual studio 2022\\projects\\testblog\\testblog\\areas\\admin\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5389D0-46B8-4064-A8BE-D3385A01A783}|TestBlog\\TestBlog.csproj|solutionrelative:testblog\\areas\\admin\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5389D0-46B8-4064-A8BE-D3385A01A783}|TestBlog\\TestBlog.csproj|c:\\users\\merty\\documents\\visual studio 2022\\projects\\testblog\\testblog\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5389D0-46B8-4064-A8BE-D3385A01A783}|TestBlog\\TestBlog.csproj|solutionrelative:testblog\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5389D0-46B8-4064-A8BE-D3385A01A783}|TestBlog\\TestBlog.csproj|c:\\users\\merty\\documents\\visual studio 2022\\projects\\testblog\\testblog\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5389D0-46B8-4064-A8BE-D3385A01A783}|TestBlog\\TestBlog.csproj|solutionrelative:testblog\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5389D0-46B8-4064-A8BE-D3385A01A783}|TestBlog\\TestBlog.csproj|c:\\users\\merty\\documents\\visual studio 2022\\projects\\testblog\\testblog\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5389D0-46B8-4064-A8BE-D3385A01A783}|TestBlog\\TestBlog.csproj|solutionrelative:testblog\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5389D0-46B8-4064-A8BE-D3385A01A783}|TestBlog\\TestBlog.csproj|c:\\users\\merty\\documents\\visual studio 2022\\projects\\testblog\\testblog\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5389D0-46B8-4064-A8BE-D3385A01A783}|TestBlog\\TestBlog.csproj|solutionrelative:testblog\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 377,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TestBlog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TestBlog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T17:04:18.119Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\Areas\\Admin\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "TestBlog\\Areas\\Admin\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\Areas\\Admin\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "TestBlog\\Areas\\Admin\\Controllers\\CommentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T14:29:51.801Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TestBlog\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TestBlog\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAAAcAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T20:27:47.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "RelativeDocumentMoniker": "TestBlog\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "ToolTip": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "RelativeToolTip": "TestBlog\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAAwBwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-09T12:41:10.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\Areas\\Admin\\Views\\Comment\\Index.cshtml",
+              "RelativeDocumentMoniker": "TestBlog\\Areas\\Admin\\Views\\Comment\\Index.cshtml",
+              "ToolTip": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\Areas\\Admin\\Views\\Comment\\Index.cshtml",
+              "RelativeToolTip": "TestBlog\\Areas\\Admin\\Views\\Comment\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-09T11:27:56.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "TestBlog\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "TestBlog\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T14:15:47.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "TestBlog\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\Models\\Comment.cs",
+              "RelativeToolTip": "TestBlog\\Models\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T11:20:37.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\Repositories\\PostRepository.cs",
+              "RelativeDocumentMoniker": "TestBlog\\Repositories\\PostRepository.cs",
+              "ToolTip": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\Repositories\\PostRepository.cs",
+              "RelativeToolTip": "TestBlog\\Repositories\\PostRepository.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAkwBAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T11:23:11.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\Repositories\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "TestBlog\\Repositories\\CommentRepository.cs",
+              "ToolTip": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\Repositories\\CommentRepository.cs",
+              "RelativeToolTip": "TestBlog\\Repositories\\CommentRepository.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAgwEcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T11:14:50.959Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

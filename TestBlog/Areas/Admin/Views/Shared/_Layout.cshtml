@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" href="~/images/blog.png" type="image/x-icon" />
+	<title>@ViewBag.Title - TestBlog</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link href="~/lib/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" media="screen" />
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/TestBlog.styles.css" asp-append-version="true" />
+</head>
+<body>
+	<!--navbar-->
+	<header>
+		<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
+			<div class="container-fluid">
+				<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">TestBlog </a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+					<ul class="navbar-nav flex-grow-1">
+						<li class="nav-item">
+							<a class="nav-link text-light" asp-area="Admin" asp-controller="Home" asp-action="Index">Anasayfa</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-light " asp-area="Admin" asp-controller="Category" asp-action="Index">Kategoriler</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-light " asp-area="Admin" asp-controller="Post" asp-action="Index">Gönderilerim</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link text-light " asp-area="Admin" asp-controller="Comment" asp-action="Index">Yorumlar</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+
+
+	<main role="main" class="pb-3">
+		<div class="container mt-4">
+		@RenderBody()
+		</div>
+	</main>
+
+
+	<footer class="border-top footer text-muted">
+		<div class="container" style="color:black">
+			&copy; 2024 - TestBlog - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+		</div>
+	</footer>
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.4.1.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.js"></script>
+	<script src="~/lib/jquery.unobtrusive-ajax.min.js"></script>
+
+	<script src="~/lib/jquery.fancybox-1.3.4/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script src="~/lib/jquery.fancybox-1.3.4/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script src="~/lib/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script src="~/js/admin.js" asp-append-version="true"></script>
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

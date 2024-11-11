@@ -1,0 +1,557 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TestBlog.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TestBlog.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\images\\26-07-2024-10-46-58-MertYılmazer.jpg",
+      "PackagePath": "staticwebassets\\images\\26-07-2024-10-46-58-MertYılmazer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\images\\30-07-2024-14-36-57-163411674-whatsapp-image-2024-07-20-at-4.25.38-pm.jpeg",
+      "PackagePath": "staticwebassets\\images\\30-07-2024-14-36-57-163411674-whatsapp-image-2024-07-20-at-4.25.38-pm.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\images\\31-07-2024-00-15-40-5122385.jpg",
+      "PackagePath": "staticwebassets\\images\\31-07-2024-00-15-40-5122385.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\images\\31-07-2024-12-34-50-pexels-luis-gomes-166706-546819.jpg",
+      "PackagePath": "staticwebassets\\images\\31-07-2024-12-34-50-pexels-luis-gomes-166706-546819.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\images\\31-07-2024-12-37-06-pexels-luis-gomes-166706-546819.jpg",
+      "PackagePath": "staticwebassets\\images\\31-07-2024-12-37-06-pexels-luis-gomes-166706-546819.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\images\\31-07-2024-12-37-56-pexels-luis-gomes-166706-546819.jpg",
+      "PackagePath": "staticwebassets\\images\\31-07-2024-12-37-56-pexels-luis-gomes-166706-546819.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\images\\31-07-2024-12-40-01.jpg",
+      "PackagePath": "staticwebassets\\images\\31-07-2024-12-40-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\images\\31-07-2024-12-42-52.jpg",
+      "PackagePath": "staticwebassets\\images\\31-07-2024-12-42-52.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\images\\31-07-2024-13-08-14.jpg",
+      "PackagePath": "staticwebassets\\images\\31-07-2024-13-08-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\images\\31-07-2024-14-46-26.jpg",
+      "PackagePath": "staticwebassets\\images\\31-07-2024-14-46-26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\images\\31-07-2024-14-53-59.jpg",
+      "PackagePath": "staticwebassets\\images\\31-07-2024-14-53-59.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\images\\MertYilmazer.jpg",
+      "PackagePath": "staticwebassets\\images\\MertYilmazer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\images\\blog.png",
+      "PackagePath": "staticwebassets\\images\\blog.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\images\\contact.jpg",
+      "PackagePath": "staticwebassets\\images\\contact.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\images\\p1.jpg",
+      "PackagePath": "staticwebassets\\images\\p1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\images\\prev.jpg",
+      "PackagePath": "staticwebassets\\images\\prev.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\images\\socialmediaicons.jpg",
+      "PackagePath": "staticwebassets\\images\\socialmediaicons.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\js\\admin.js",
+      "PackagePath": "staticwebassets\\js\\admin.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4.zip",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4.zip"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\ajax.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\ajax.txt"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\10_b.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\10_b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\10_s.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\10_s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\11_b.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\11_b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\11_s.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\11_s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\12_b.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\12_b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\12_s.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\12_s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\1_b.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\1_b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\1_s.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\1_s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\2_b.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\2_b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\2_s.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\2_s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\3_b.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\3_b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\3_s.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\3_s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\4_b.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\4_b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\4_s.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\4_s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\5_b.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\5_b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\5_s.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\5_s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\6_b.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\6_b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\6_s.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\6_s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\7_b.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\7_b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\7_s.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\7_s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\8_b.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\8_b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\8_s.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\8_s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\9_b.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\9_b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\example\\9_s.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\example\\9_s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\blank.gif",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\blank.gif"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_close.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_close.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_loading.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_loading.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_nav_left.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_nav_left.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_nav_right.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_nav_right.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_shadow_e.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_shadow_e.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_shadow_n.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_shadow_n.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_shadow_ne.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_shadow_ne.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_shadow_nw.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_shadow_nw.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_shadow_s.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_shadow_s.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_shadow_se.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_shadow_se.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_shadow_sw.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_shadow_sw.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_shadow_w.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_shadow_w.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_title_left.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_title_left.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_title_main.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_title_main.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_title_over.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_title_over.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_title_right.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancy_title_right.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancybox-x.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancybox-x.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancybox-y.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancybox-y.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancybox.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\fancybox.png"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\jquery.easing-1.3.pack.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\jquery.easing-1.3.pack.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\jquery.fancybox-1.3.4.css",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\jquery.fancybox-1.3.4.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\jquery.fancybox-1.3.4.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\jquery.fancybox-1.3.4.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\jquery.fancybox-1.3.4.pack.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\jquery.fancybox-1.3.4.pack.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\fancybox\\jquery.mousewheel-3.0.4.pack.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\fancybox\\jquery.mousewheel-3.0.4.pack.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\index.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\jquery-1.4.3.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\jquery-1.4.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.fancybox-1.3.4\\style.css",
+      "PackagePath": "staticwebassets\\lib\\jquery.fancybox-1.3.4\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\merty\\Documents\\Visual Studio 2022\\Projects\\TestBlog\\TestBlog\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TestBlog.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TestBlog.props",
+      "PackagePath": "build\\TestBlog.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TestBlog.props",
+      "PackagePath": "buildMultiTargeting\\TestBlog.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TestBlog.props",
+      "PackagePath": "buildTransitive\\TestBlog.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

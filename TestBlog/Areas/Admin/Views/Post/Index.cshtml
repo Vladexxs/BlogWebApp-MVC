@@ -1,0 +1,181 @@
+﻿@model List<Category>
+
+
+<div class="row form-inline pb-4">
+	<div class="col-md-4 col-sm-8 d-flex">
+		<select class="form-control" id="selectCategoryId">
+			@foreach (var category in Model)
+			{
+				<option value="@category.CategoryId">
+					@category.Name
+				</option>
+			}
+		</select>
+		<a asp-action="" class="btn btn-primary me-2 d-flex" id="btnListPosts">
+			Listele
+			<span class="spinner-border spinner-border-sm mt-1 ms-1" style="display:none" aria-hidden="true"></span>
+		</a>
+	</div>
+
+	<div class="col-md-8 col-sm-4 d-flex flex-row-reverse">
+		<a class="btn btn-success" id="btnShowInsertPostModal">Ekle</a>
+	</div>
+
+	<div class="col-md-12 mt-2" id="divPostHolder">
+	</div>
+</div>
+@section Scripts {
+	<script>
+		$(document).ready(function () {
+			GetPosts(1);
+		});
+		function GetPosts(page) {
+			$('#btnListPosts').attr('disabled', 'disabled');
+			$('#btnListPosts > span').show();
+			var categoryId = $('#selectCategoryId').val();
+			$.ajax({
+				url: '/admin/post/Posts?categoryId=' + categoryId + '&page=' + page,
+				type: 'get',
+				async: true,
+				cache: false,
+			})
+				.done(function (response) {
+
+					$('#divPostHolder').html(response);
+
+					try {
+						$.each($('.postShortDetailPopover'), function (index, item) {
+							const popover = new bootstrap.Popover(item, {
+								container: '#divPostHolder'
+							});
+
+						});
+					}
+					catch { }
+
+				}).fail(function () {
+					alert("Gönderileri getirirken hata oluştu!");
+				}).always(function () {
+					$('#btnListPosts').removeAttr('disabled');
+					$('#btnListPosts > span').hide();
+				});
+		}
+
+		$(document).on('click', '#btnListPosts', function () {
+			var $this = $(this);
+			if ($this.attr('disabled') == 'disabled') {
+				return false;
+			}
+			GetPosts(1);
+			return false;
+		});
+
+		$(document).on('click', '.postpagelink', function () { 
+			var $this = $(this);
+			var targetPage = $this.attr('data-page');
+			GetPosts(targetPage);
+
+			return false;
+		});
+
+		$(document).on('click', '#btnShowInsertPostModal', function () {
+			$.ajax({
+				url: '/admin/post/create',
+				method: 'get',
+				async: true,
+				cache: false
+			}).done(function (response) {
+				$('#createEdiModalBody').html(response);
+				$('#editCreateModalTitle').html("Gönderi Ekle");
+				$('#editCreateModal').modal('show');
+			}).fail(function () {
+
+			}).always(function () {
+
+			});
+
+
+			$('#editCreateModal').modal('show');
+			return false;
+		});
+
+		function onPostBegin() {
+			$('#btnSavePost').attr('disabled', 'disabled');
+
+		}
+
+		function onPostComplete() {
+			GetPosts();
+			$('#btnSavePost').removeAttr("disabled");
+		}
+
+		function onPostFailure() {
+			alert("Bir hata oluştu sayfanızı yenileyip tekrar deneyin!");
+			window.location = window.location;
+		}
+
+		function onPostSuccess(response) {
+			alert(response.message);
+			if (response.status == 1) {
+				$('#editCreateModal').modal('hide');
+			}
+		}
+
+
+		$(document).on('click', '.btnPostEditLink', function () {
+			var href = $(this).attr('href');
+			$.ajax({
+				url: href,
+				type: 'get',
+				async: true,
+				cache: false
+			}).done(function (response) {
+				$('#createEdiModalBody').html(response);
+				$("#editCreateModalTitle").html("Gönderi Düzenle");
+				$('#editCreateModal').modal('show');
+			}).fail(function (error) {
+				alert(error.responseText);
+				GetPosts(1);
+			}).always(function () {
+
+			});
+
+			return false;
+		})
+
+		//post delete -------
+
+		function onPostDeleteBegin() {
+
+		}
+
+		function onPostDeleteComplete() {
+			GetPosts(1);
+		}
+
+		function onPostDeleteFailure(error) {
+			alert(error.responseText);
+		}
+
+		function onPostDeleteSuccess(response) {
+			alert(response.message);
+		}
+
+		//post delete -------
+	</script>
+
+
+
+	<div class="modal fade" id="editCreateModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="editCreateModalTitle">Modal title</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body" id="createEdiModalBody">
+				</div>
+			</div>
+		</div>
+	</div>
+}

@@ -1,0 +1,57 @@
+﻿@model List<TestBlog.Models.Comment>
+
+<h2>Yorumlar</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Kullanıcı Adı</th>
+            <th>Yorum</th>
+            <th>Tarih</th>
+            <th>Post ID</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var comment in Model)
+        {
+            <tr id="comment-@comment.CommentId">
+                <td>@comment.UserName</td>
+                <td>@comment.Text</td>
+                <td>@comment.Date.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>@comment.PostId</td>
+                <td>
+                    <button class="btn btn-danger btn-sm delete-comment" data-id="@comment.CommentId">Sil</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        $(document).on('click', '.delete-comment', function () {
+            var commentId = $(this).data("id");
+            var row = $("#comment-" + commentId);
+
+            if (confirm("Bu yorumu silmek istediğinize emin misiniz?")) {
+                $.ajax({
+                    type: "POST",
+                    url: '/Admin/Comment/Delete',
+                    data: { id: commentId }
+                })
+                    .done(function (response) {
+                        if (response.success) {
+                            row.remove();
+                        } else {
+                            alert("Yorum silinemedi.");
+                        }
+                    })
+                    .fail(function () {
+                        alert("Bir hata oluştu.");
+                    });
+            }
+            return false;
+        });
+    </script>
+}
